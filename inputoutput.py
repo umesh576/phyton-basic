@@ -41,3 +41,24 @@
 '''input in the list'''
 x = input("Enter the numbers seperate by space: ").split()
 print(x)
+
+# getting input lin list by using loop
+
+# a = []
+# n = int(input("Enter the number want to stroew in the list: "))
+# for i in range (n):
+#     b = int(input(f'Enter the number {i+1}'))
+#     a.append(b)
+# print(a)
+
+# geting input in the list using map 
+# a = list(map(int,input("Enter the number by using space: ").split()))
+# print(a)
+
+'''get input in nested list'''
+user_input = [x.split(',') for x in input("Enter nest list seperate by ;: ").split(';')]
+print(user_input)
+# user_input = [input("Enter the list sperate by coma,: ").split(',')]
+
+
+
