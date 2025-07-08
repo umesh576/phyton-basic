@@ -22,5 +22,18 @@
 # print (y)
 
 
+'''match statement'''
+n = 2
+match n:
+    case 1:
+        print("jello")
+    case 2:
+        print("joshi")
+    case 3:
+        print('sugam')
+    case _:
+        print("default")
+
+
 """ switch case statement"""
 
